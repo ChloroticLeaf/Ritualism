@@ -23,6 +23,9 @@ public class Ritualism implements ModInitializer {
 
 		// To make some parts of the block transparent (like glass, saplings and doors):
 		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCHALK, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALGOLD, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCOPPER, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALAMETHYST, RenderLayer.getCutout());
 
 		RitualismBlocks.initialize();
 

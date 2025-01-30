@@ -15,7 +15,37 @@ import static com.ritualism.RitualismConstants.MOD_ID;
 
 public class RitualismBlocks {
 
+    // General blocks
+
+    // Ritual drawing blocks
     public static final Block RITUALCHALK = register("ritualchalk", Block::new,
+            AbstractBlock.Settings.create()
+                    .breakInstantly()
+                    .dropsNothing()
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .sounds(BlockSoundGroup.CANDLE),
+            true);
+
+    public static final Block RITUALGOLD = register("ritualgold", Block::new,
+            AbstractBlock.Settings.create()
+                    .breakInstantly()
+                    .dropsNothing()
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .sounds(BlockSoundGroup.CANDLE),
+            true);
+
+    public static final Block RITUALCOPPER = register("ritualcopper", Block::new,
+            AbstractBlock.Settings.create()
+                    .breakInstantly()
+                    .dropsNothing()
+                    .noCollision()
+                    .noBlockBreakParticles()
+                    .sounds(BlockSoundGroup.CANDLE),
+            true);
+
+    public static final Block RITUALAMETHYST = register("ritualamethyst", Block::new,
             AbstractBlock.Settings.create()
                     .breakInstantly()
                     .dropsNothing()
