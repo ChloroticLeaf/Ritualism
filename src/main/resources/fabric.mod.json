@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ritualism",
+	"version": "${version}",
+	"name": "Ritualism",
+	"description": "test",
+	"authors": [
+		"test"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ritualism/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ritualism.Ritualism"
+		],
+		"fabric-datagen": [
+			"com.ritualism.RitualismDataGenerator"
+		]
+	},
+	"mixins": [
+		"ritualism.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
