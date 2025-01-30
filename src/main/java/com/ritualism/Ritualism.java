@@ -2,6 +2,8 @@ package com.ritualism;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +20,9 @@ public class Ritualism implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		// To make some parts of the block transparent (like glass, saplings and doors):
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCHALK, RenderLayer.getCutout());
 
 		RitualismBlocks.initialize();
 
