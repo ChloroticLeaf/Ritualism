@@ -1,4 +1,4 @@
-package com.ritualism.mixin;
+package chloriticleaf.ritualism.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

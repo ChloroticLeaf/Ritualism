@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.ritualism.mixin",
+	"package": "chloriticleaf.ritualism.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,4 +1,4 @@
-package com.ritualism;
+package chloriticleaf.ritualism;
 
 //import com.ritualism.worldgen.biome.ritualismBiomes;
 //import com.ritualism.ritualism.worldgen.feature.ritualismFeatures;
@@ -7,7 +7,6 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
-import net.minecraft.registry.RegistryKeys;
 
 @Environment(EnvType.CLIENT)
 public class RitualismDataGenerator implements DataGeneratorEntrypoint {

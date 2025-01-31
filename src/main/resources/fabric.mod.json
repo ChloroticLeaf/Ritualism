@@ -3,23 +3,23 @@
 	"id": "ritualism",
 	"version": "${version}",
 	"name": "Ritualism",
-	"description": "test",
+	"description": "Small ritualism mod inspired by old blood magic and thaumcraft",
 	"authors": [
-		"test"
+		"ChloroticLeaf"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ChloroticLeaf/",
+		"sources": "https://github.com/ChloroticLeaf/Ritualism"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/ritualism/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ritualism.Ritualism"
+			"chloriticleaf.ritualism.Ritualism"
 		],
 		"fabric-datagen": [
-			"com.ritualism.RitualismDataGenerator"
+			"chloriticleaf.ritualism.RitualismDataGenerator"
 		]
 	},
 	"mixins": [
