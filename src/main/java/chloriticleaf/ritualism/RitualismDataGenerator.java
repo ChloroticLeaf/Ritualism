@@ -15,7 +15,7 @@ public class RitualismDataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        //pack.addProvider(RitualismBlockTagProvider::new);
+        pack.addProvider(RitualismBlockTagProvider::new);
         //pack.addProvider(RitualismItemTagProvider::new);
         //pack.addProvider(RitualismLootTableProvider::new);
         pack.addProvider(RitualismModelProvider::new);

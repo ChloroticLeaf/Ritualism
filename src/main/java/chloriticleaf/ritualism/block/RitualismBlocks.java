@@ -14,6 +14,15 @@ import static chloriticleaf.ritualism.RitualismConstants.MOD_ID;
 
 public class RitualismBlocks {
 
+    // Ritual scribe blocks
+    public static final Block RITUALDRAWERS = register("ritualdrawers", RitualDrawers::new,
+            AbstractBlock.Settings.create()
+                    .breakInstantly()
+                    .dropsNothing()
+                    .noCollision()
+                    .sounds(BlockSoundGroup.CANDLE),
+            true);
+
     // General blocks
     public static final Block RITUALCAULDRON  = register("ritualcauldron", RitualCauldronBlock::new,
             AbstractBlock.Settings.create()
@@ -22,44 +31,7 @@ public class RitualismBlocks {
                     .sounds(BlockSoundGroup.METAL),
             true);
 
-    // Ritual drawing blocks
-    public static final Block RITUALCHALK = register("ritualchalk", Block::new,
-            AbstractBlock.Settings.create()
-                    .breakInstantly()
-                    .dropsNothing()
-                    .noCollision()
-                    .noBlockBreakParticles()
-                    .sounds(BlockSoundGroup.CANDLE),
-            true);
-
-    public static final Block RITUALGOLD = register("ritualgold", Block::new,
-            AbstractBlock.Settings.create()
-                    .breakInstantly()
-                    .dropsNothing()
-                    .noCollision()
-                    .noBlockBreakParticles()
-                    .sounds(BlockSoundGroup.CANDLE),
-            true);
-
-    public static final Block RITUALCOPPER = register("ritualcopper", Block::new,
-            AbstractBlock.Settings.create()
-                    .breakInstantly()
-                    .dropsNothing()
-                    .noCollision()
-                    .noBlockBreakParticles()
-                    .sounds(BlockSoundGroup.CANDLE),
-            true);
-
-    public static final Block RITUALAMETHYST = register("ritualamethyst", Block::new,
-            AbstractBlock.Settings.create()
-                    .breakInstantly()
-                    .dropsNothing()
-                    .noCollision()
-                    .noBlockBreakParticles()
-                    .sounds(BlockSoundGroup.CANDLE),
-            true);
-
-    //crystals
+    // Crystals
     public static final Block ATTUNEDCRYSTAL = register("attunedcrystal", Block::new,
             AbstractBlock.Settings.create()
                     .nonOpaque()

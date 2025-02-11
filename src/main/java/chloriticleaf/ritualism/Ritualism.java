@@ -38,10 +38,8 @@ public class Ritualism implements ModInitializer {
 		// Proceed with mild caution.
 
 		// To make some parts of the block transparent (like glass, saplings and doors):
-		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCHALK, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALGOLD, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCOPPER, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALAMETHYST, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALCAULDRON, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(RitualismBlocks.RITUALDRAWERS, RenderLayer.getCutout());
 
 		RitualismBlocks.initialize();
 
@@ -64,11 +62,12 @@ public class Ritualism implements ModInitializer {
 	private void findRitual(World world, BlockPos centerPos) {
 
         try {
-			File file = new File(JSON_DIR +"debugRitual.json");
+			File file = new File(JSON_DIR + "debugRitual.json");
 			Scanner Reader = new Scanner(file);
 			while (Reader.hasNextLine()) {
 				String data = Reader.nextLine();
 				LOGGER.info(data);
+
 			}
 			Reader.close();
 		} catch (FileNotFoundException e) {
