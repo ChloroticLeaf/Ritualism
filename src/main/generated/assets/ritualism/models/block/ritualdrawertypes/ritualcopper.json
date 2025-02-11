@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/carpet",
   "textures": {
-    "wool": "ritualism:block/ritualchalk"
+    "wool": "ritualism:block/ritualcopper"
   }
 }
