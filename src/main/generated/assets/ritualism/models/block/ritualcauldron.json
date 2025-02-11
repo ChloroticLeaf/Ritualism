@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ritualism:block/ritualcauldron_bottom",
+    "side": "ritualism:block/ritualcauldron_side",
+    "top": "ritualism:block/ritualcauldron_top"
+  }
+}

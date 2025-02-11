@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"type=chalk": {
+			"model": "ritualism:block/ritualdrawertypes/ritualchalk"
+		},
+		"type=copper": {
+			"model": "ritualism:block/ritualdrawertypes/ritualcopper"
+		},
+		"type=gold": {
+			"model": "ritualism:block/ritualdrawertypes/ritualgold"
+		},
+		"type=amethyst": {
+			"model": "ritualism:block/ritualdrawertypes/ritualamethyst"
+		}
+	}
+}
