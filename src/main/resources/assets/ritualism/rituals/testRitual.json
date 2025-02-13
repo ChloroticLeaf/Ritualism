@@ -2,10 +2,10 @@
   "center": "RitualCauldron",
   "points": [
     {
-      "dust": "(0,0,1)"
+      "dust": "(1,0,0)"
     },
     {
-      "dust": "(0,0,-1)"
+      "dust": "(1,0,0)"
     }
   ]
 }
